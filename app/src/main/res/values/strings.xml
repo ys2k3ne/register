@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="nh_p_pass">nhập pass</string>
+    <string name="nh_p_sdt">nhập sdt</string>
+    <string name="ng_k">đăng kí</string>
+    <string name="nh_p_t_n">Nhập tên</string>
+    <string name="nh_p_email">nhập email</string>
+    <string name="quên_mật_khẩu" />
+    <string name="qu_n_m_t_kh_u">quên mật khẩu</string>
+    <string name="i_u_kho_n">điều khoản</string>
+    <string name="c_t_i_kho_n_ng_nh_p">Đã có tài khoản? Đăng nhập</string>
+    <string name="ng_nh_p">Đăng nhập</string>
+    <string name="ng_k_t_i_kho_n_m_i">Đăng ký tài khoản mới</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_your_n_account">Create Your \n Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+</resources>

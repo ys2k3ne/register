@@ -1,0 +1,50 @@
+<!-- item_hotel.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- item_hotel.xml -->
+    <ImageView
+        android:id="@+id/imageViewHotel"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="?attr/imageResourceId" />
+
+
+    <TextView
+        android:id="@+id/textViewHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hotel Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/textViewHotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Hotel Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+    <TextView
+        android:id="@+id/textViewHotelPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Hotel Price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <RatingBar
+        android:id="@+id/ratingBarHotelRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1" />
+
+</LinearLayout>

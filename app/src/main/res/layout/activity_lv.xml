@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Hình ảnh của khách sạn -->
+    <ImageView
+        android:id="@+id/imageViewHotel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!-- Tên khách sạn -->
+    <TextView
+        android:id="@+id/textViewHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Địa chỉ khách sạn -->
+    <TextView
+        android:id="@+id/textViewHotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Giá khách sạn -->
+    <TextView
+        android:id="@+id/textViewHotelPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textColor="#F44336"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Đánh giá khách sạn -->
+    <RatingBar
+        android:id="@+id/ratingBarHotelRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+</LinearLayout>

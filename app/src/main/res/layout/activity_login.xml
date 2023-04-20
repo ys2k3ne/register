@@ -1,0 +1,78 @@
+<!-- activity_login.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_b">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:hint="Email"
+        android:textSize="24sp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:hint="Mật khẩu"
+        android:textSize="24sp"
+        android:inputType="textPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="15sp"
+        android:background="@drawable/layout_a"
+        android:text="@string/ng_nh_p" />
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Quên mật khẩu?"
+        android:textSize="15sp"
+        android:textColor="#FF5722" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewForgotPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/ng_k_t_i_kho_n_m_i"
+        android:textSize="15sp"
+        android:textColor="#F44336" />
+
+</RelativeLayout>
+
+
